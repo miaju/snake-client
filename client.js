@@ -6,6 +6,12 @@ const connect = function() {
     host: '10.0.0.164', // IP address here,
     port: 50541// PORT number here,
   });
+
+  conn.on("connect", () => {
+    console.log("Connected");
+    conn.write("Name: MIA");
+  });
+
   conn.on("data", (data) => {
     console.log(data);
   });
