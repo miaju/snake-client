@@ -23,7 +23,11 @@ const handleUserInput = function(key) {
   }
 
   if (key === "h") {
-    connection.write('Say: Hello');
+    connection.write('Say: Hey');
+  }
+
+  if (key === "g") {
+    connection.write("Say: B)");
   }
 };
 
