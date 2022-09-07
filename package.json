@@ -1,0 +1,19 @@
+{
+  "name": "snake-client",
+  "version": "1.0.0",
+  "description": "This is an implementation of a client side of a multiplayer version of the game snake. This is a modified version of the single player [Snek](https://github.com/taniarascia/snek) by Tania Rasica.",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miaju/snake-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miaju/snake-client/issues"
+  },
+  "homepage": "https://github.com/miaju/snake-client#readme"
+}
